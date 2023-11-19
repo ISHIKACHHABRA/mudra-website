@@ -1,0 +1,293 @@
+<html>
+
+<head>
+    <title>Mudra</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header_style.css">
+    <link rel="stylesheet" href="../css/footer_style.css">
+    <link href="/css/home_page.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="logoc">
+        <div class="logo">
+            <img src="../media/logo.png" class="mudra" alt="Logo">
+        </div>
+        <video autoplay muted loop id="myVideo" class="video">
+            <source src="../media/MUDRA.mp4" type="video/mp4">
+        </video>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <div class="header" id="header"></div>
+    <script>
+        $(function () {
+            $("#header").load("../html/header.html");
+        }); 
+    </script>
+
+
+    <script>
+        window.addEventListener('scroll', function () {
+            var logo = document.querySelector('.logo');
+            var navbar = document.querySelector('.header');
+            var video=document.getElementById("myVideo");
+            //alert(video.offsetHeight);
+            if (window.pageYOffset > 10) {
+                logo.style.width = 'auto';
+                logo.style.height = '0px';
+                navbar.style.height = '80px';
+                navbar.style.opacity = '1';
+            } else {
+                logo.style.width = 'auto';
+                logo.style.height = '300px';
+                navbar.style.height = '0';
+                navbar.style.opacity = '0';
+            }
+        });
+    </script>
+
+    <script src="https://kit.fontawesome.com/56f1776af2.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="/css/1.css" rel="stylesheet">
+    <link href="/css/2.css" rel="stylesheet">
+    <link href="/css/3.css" rel="stylesheet">
+    <link href="/css/4.css" rel="stylesheet">
+    <link href="/css/5.css" rel="stylesheet">
+    <link href="/css/6.css" rel="stylesheet">
+    <link href="/css/7.css" rel="stylesheet">
+    <link href="/css/8.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Template Main CSS File -->
+    <link href="/css/9.css" rel="stylesheet">
+
+    <style type="text/css">
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+            margin-bottom: -50px;
+        }
+    </style>
+
+    <div class='wrapper'>
+        <h1 class="title">&nbsp;About Us</h1>
+    </div>
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+        <div class="container-fluid">
+
+            <div class="row">
+
+
+                <div>
+
+                    <p>With every beat of the drum and sway of the dance MUDRA
+                        has been the testimony of Thapar's divine culture.It is the canvas where creativity and
+                        diversity intertwine to create
+                        an enriching and unforgettable experience.
+                        <br><br>
+                        We foster a spirit of inclusivity, embracing the unique stories and perspectives that each
+                        individual brings. Through a
+                        wide range of events, performances, and workshops, we provide a platform for students to explore
+                        their passions, refine
+                        their skills, and unleash their artistic potential.
+                        At MUDRA we firmly believe that the beauty of humanity lies in its diversity, and we strive to
+                        create an inclusive space
+                        where every voice is heard and appreciated.
+                        <br><br>
+                        Whether you have a flair for dance, a gift for music, a talent for theater, or a passion for
+                        visual arts, our society
+                        welcomes you with open arms,we also believe that art has the power to inspire, provoke thought,
+                        and unite people.
+                        <br><br>
+
+                        Amidst the hallowed halls of our institution, a multitude of cultural marvels unfurl, Mudranite
+                        ,Surnite and Playnite
+                        gives students a sigh of relief from their daily hectic academic schedules.
+                        <br><br>
+                        Followed by our three day flagship event "Izhaar",which is the largest cultural fest at thapar
+                        comprising of all the
+                        forms of Music Dance and Dramatics.During these three days
+                        the entire college feels the aroma of mesmerizing performances and satiating sounds coming right
+                        from OAT.
+                        <br>
+                        <br>
+
+                        MUDRA in itself isn't just about the performances and events; it's about the friendships and
+                        connections that are forged
+                        along the way. We are a close-knit community of like-minded individuals who share a deep
+                        appreciation for creativity and
+                        expression. Together, we support and encourage each other, pushing boundaries and challenging
+                        ourselves to reach new
+                        heights.
+                        <br>
+                        <br>
+                        Unifying hearts and souls
+                    </p>
+
+
+                </div>
+
+
+            </div>
+            <style>
+                .row {
+                    color: white;
+                    text-align: center;
+                }
+            </style>
+        </div>
+    </section><!-- End About Section -->
+
+
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+
+    <!-- Design on Dribbble: https://dribbble.com/shots/3967265-FAQ -->
+    <h1 class="title1">FAQ's</h1>
+
+    <div class="faqs-container">
+        <div class="faq active">
+            <h3 class="faq-title">
+                What does MUDRA stand for?
+            </h3>
+            <p class="faq-text">
+                Mudra is the acronym for 'Music and Dramatics'.
+            </p>
+            <button class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-title">
+                What is the mission of the society?
+            </h3>
+            <p class="faq-text">
+                Mudra aims at bringing all the talented people of TIET under one umbrella. Mudra is a cutural society
+                which provides all
+                the creative minds a place to socialise and work together.
+            </p>
+            <button class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-title">
+                How can I become a part of Mudra?
+            </h3>
+            <p class="faq-text">
+                Recruitment forms are released each year for new team members. Following which interviews are conducted.
+                The selected
+                candidates are welcomed into the Mudra family.
+            </p>
+            <button class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-title">
+                What skills can I develop by being in the society?
+            </h3>
+            <p class="faq-text">
+                The society has various departments which handle different aspects. Being a part of the society you get
+                to work and
+                learn in these departments. Video editing, content writing, graphic designing are some of the many
+                skills which you can
+                enhance one you come on-board.
+
+            </p>
+            <button class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-title">
+                Can i participate in the events organised by the society if i am not a part of it?
+            </h3>
+            <p class="faq-text">
+                The society is solely responsible for the management and organisation of the events. Participation is
+                open for all the
+                students of TIET. Auditions are conducted by convenors to finalise participants for different events.
+
+            </p>
+            <button class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="faq">
+            <h3 class="faq-title">
+                If I become a member of the organising team will I be able to participate in any of the performances
+                during the event?
+
+            </h3>
+            <p class="faq-text">
+                Yes, you can still participate in performances if you become a member of the organising team. You will
+                have to give
+                auditions like the non-members and if selected, can perform during the event.
+            </p>
+            <button class="faq-toggle">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- SOCIAL PANEL HTML -->
+    <div class="social-panel-container">
+        <div class="social-panel">
+
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+            <h4>Get in touch on</h4>
+            <ul>
+
+                <li>
+                    <a href="https://www.linkedin.com/company/mudra-society-thapar-university-patiala/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mudrasociety/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <button class="floating-btn">
+        Get in Touch
+    </button>
+
+
+    <div class="footer">
+        Made with <i class="fa fa-heart"></i> by Team Mudra
+    </div>
+    <script src="/js/home_page.js"></script>
+</body>
+
+</html>
